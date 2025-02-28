@@ -6,8 +6,15 @@
   .btn-primary {
     @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors;
   }
-  
+
   .card {
     @apply p-6 bg-white rounded-lg shadow-md;
   }
-} 
+}
+
+@layer base {
+  body {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url('https://pbs.twimg.com/media/E2z6WrjWUAEconS.png'); 
+  }
+}
